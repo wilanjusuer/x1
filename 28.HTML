@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站</title>
+    <style>
+        body {
+            margin: 0px;
+            height: 100vh;
+            background-color: #eee;
+        }
+
+        * {
+            border: 0px solid black;
+        }
+
+        .BK {
+            border: 1px solid black;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .baise {
+            background-color: white;
+        }
+
+        .flex1 {
+            flex: 1
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .mg8 {
+            margin: 8px;
+        }
+
+        .mgr8 {
+            margin-right: 8px;
+        }
+
+        .mgt8 {
+            margin-top: 8px;
+        }
+
+        .zg40 {
+            line-height: 40px;
+        }
+
+        .lvse {
+            background-color: rgb(140, 146, 140);
+        }
+    </style>
+</head>
+
+<body class="flex">
+    <!--侧边栏-->
+    <div style="width: 200px;z-index: 2;" class="baise ">
+        <!--顶部-->
+        <div style="height:60px;background-color:#a7c4c4" class="flex">
+            <b style="font-size:40px;line-height: 60px;margin:auto ;">天使</b>
+        </div>
+        <!--选项-->
+        <div style="height: 40px; " class="zg40 lvse BK">起源
+        </div>
+        <div style="height: 40px; " class="zg40 lvse BK">性质</div>
+        <div style="height: 40px; " class="zg40 lvse BK">属性</div>
+        <div style="height: 40px; " class="zg40 lvse BK">阶层</div>
+        <div style="height: 40px; " class="zg40 lvse BK">阶级</div>
+        <div style="text-align:center ;" class="BK lvse"><img
+                src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201410%2F10%2F20141010043925_JAM5a.thumb.700_0.png&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1666339996&t=4ac17f13d92e48b2cb1df49027909a4f"
+                width="200px" style="margin:auto ;">
+        </div>
+        <div style="height: 40px; " class="zg40 lvse BK">11</div>
+        <div style="height: 40px; " class="zg40 lvse BK">11</div>
+    </div>
+    <!--主区域-->
+    <div class="flex flex1 column">
+        <!--头部栏-->
+        <div style="height: 60px;z-index:1 ;" class="baise "></div>
+        <!--内容区-->
+        <div style="overflow:auto;" class="flex1 flex">
+            <!--左侧-->
+            <div style="flex:3" class="flex column mg8">
+                <!--数据区-->
+                <div class="flex">
+                    <!--数据块-->
+                    <div style="height: 100px;" class="flex1 baise  mgr8">
+                        <a></a>
+                    </div>
+                    <div style="height: 100px;" class="flex1 baise  mgr8"></div>
+                    <div style="height: 100px;" class="flex1 baise  mgr8"></div>
+                    <div style="height: 100px;" class="flex1 baise "></div>
+                </div>
+                <!--列表区-->
+                <div class="flex column ">
+                    <!--列表项-->
+                    <div style="height:150px; " class="baise  mgt8"></div>
+                    <div style="height:150px; " class="baise  mgt8"></div>
+                    <div style="height:150px; " class="baise  mgt8"></div>
+                </div>
+            </div>
+            <!--右侧-->
+            <div style="flex:1" class="flex column mg8">
+                <!--消息区-->
+                <div style="height: 150px;" class="baise "></div>
+                <!--提示区-->
+                <div style="height: 150px;" class="baise mgt8"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
